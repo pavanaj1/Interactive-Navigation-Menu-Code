@@ -1,0 +1,76 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the body */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Fixed navigation bar */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+/* Style for navigation menu */
+.nav-menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-menu li {
+    margin: 0 15px;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect on menu items */
+.nav-menu a:hover {
+    background-color: #555;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Sections for content */
+section {
+    padding: 80px;
+    height: 100vh;
+}
+
+/* Background colors for sections */
+#home {
+    background-color: lightcoral;
+}
+
+#about {
+    background-color: lightseagreen;
+}
+
+#services {
+    background-color: lightskyblue;
+}
+
+#contact {
+    background-color: lightgoldenrodyellow;
+}
+
+/* Style change when scrolling down */
+.scrolled {
+    background-color: #000;
+}
